@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "ReposterPro",
+    "slug": "reposterpro",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ff006a"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "description": "",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.muno.reposterpro",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.muno.reposterpro",
+      "versionCode": 1
+    }
+  }
+}
